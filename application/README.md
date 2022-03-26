@@ -17,6 +17,6 @@ RUN:
 
 To run the project:
 
-- Clone the project to your machine: git clone 
+- Clone the project to your machine: git clone https://github.com/yakir11244/projects.git
 - Build the image: docker build -t name_of_container /dir/path
 - Run the container: docker run -v local_absolute_path:/app/results -e URL=https://google.com -it screenshot
